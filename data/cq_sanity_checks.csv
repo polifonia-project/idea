@@ -299,7 +299,29 @@ Sethus,3_ConflictingAnalyticalAnnotations,CQ7,Are there any melodic patterns rel
 Sethus,3_ConflictingAnalyticalAnnotations,CQ8,To what diatonic environment does the work belong to?,pass
 Sethus,3_ConflictingAnalyticalAnnotations,CQ9,What are the part’s clefs and keys?,pass
 Sethus,3_ConflictingAnalyticalAnnotations,CQ10,Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work?,['hard']
-Sethus,3_ConflictingAnalyticalAnnotations,CQ11,What is the tension between the expected theoretical criteria and their actual realisation in the work?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ11,"What is the tension between the expected theoretical criteria and their actual realisation in the work?
+
+[Metadata updated section]","['complex', 'hard']"
+Sethus,3_ConflictingAnalyticalAnnotations,CQ12,To what corpus does this work belong?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ13,What is the name of the corpus?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ14,What is the pseudonyme of the composer for X?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ15,What is the birthdate of the composer?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ16,What is the deathdate of the composer?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ17,To what genre does the composition belong?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ18,To what collection does of the composition belong?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ19,Is the composition part of another composition?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ20,Is the composition quoted in other compositions?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ21,Does the composition contain any quotation from other composition(s)?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ22,What is the origin of the composition?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ23,"If available online, what is the URL of the composition?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ24,"In the case of a manuscript/printed sources, where is it housed?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ25,Who is the scientific editor of the composition?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ26,"If any, what is the license of the transcription?",pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ27,What is the year of publication of the music printed source?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ28,Where was the music printed source published?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ29,What is the editor of the music printed source?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ30,In what electronic format is the composition available?,pass
+Sethus,3_ConflictingAnalyticalAnnotations,CQ31,What is the licence of the final reused/modified electronic format of the score?,pass
 Valeriana,1_DiscourseAnalysis,CQ1,What was Wagner's first performance in Bologna? On what date?,['to-split']
 Valeriana,1_DiscourseAnalysis,CQ2,What was Verdi's first performance in Bologna? On what date?,['to-split']
 Valeriana,1_DiscourseAnalysis,CQ3,Who were the public figures who participated in event X (or Y)?,pass
