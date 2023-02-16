@@ -1,0 +1,13 @@
+{
+    "embeddings": [
+      {
+        "tensorName": "PolifoniaCQ",
+        "tensorShape": [
+          260,
+          384
+        ],
+        "tensorPath": "https://github.com/polifonia-project/idea/blob/main/data/projections/00000/PolifoniaCQ/tensors.tsv",
+        "metadataPath": "https://github.com/polifonia-project/idea/blob/main/data/projections/00000/PolifoniaCQ/metadata.tsv"
+      }
+    ]
+  }

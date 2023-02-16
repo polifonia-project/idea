@@ -1,0 +1,261 @@
+cq	persona
+If using a known tune as a query, search for similar tunes from other corpora based on; - Geographic location of collection.; - Melodic similarity between query and results.; - Rhythmic similarity between query and results.	Brendan
+Can the notation of query and results be viewed simultaneously for comparison?	Brendan
+What collection/archive are results taken from?; - Can a user filter between collections?	Brendan
+What is the provenance of any given result from this search? ; - Can information on the collection/archive which the result belongs to be accessed from this search?; - Can links be established and recorded between similar tunes?	Brendan
+Can I search for a musical content by applying filters (genre, historical period ...)?	Laurent
+What types of resources can I find?	Laurent
+Is the music resource X complete or incomplete?	Laurent
+Is a dataset attached to resource X?	Laurent
+Can I add resources as a user?	Laurent
+How can I share what I find on the site?	Laurent
+Can I find interesting materials without applying filters?	Andrea
+What types of resources can I find?	Andrea
+Is there a way of visualizing all the materials connected to my interests?	Andrea
+Can I keep getting suggestions in real time?	Andrea
+How can I share what I find on the site?	Andrea
+How I personalize my navigation experience without knowing the filtering criteria or the materials' characteristics?	Andrea
+Search organs with the possibility to combine search criteria, based on; - Location; - City; - Building/church name; - Organ builder; - Technical features, including, but not limited to:; - Stops, and amount of stops; - Number of keyboards; - Range (klavieromvang); - Type of wind supply system; - Pitch; - Temperament; - Year of constructions; - Other people related to the organ (sculptor/carver, funder/donor)	Paul
+What are the technical features such as pitch, windpressure, and bellow type?	Paul
+What materials is the casing made of?	Paul
+What are the dispositions of all the organs made by XX organ builder?	Paul
+When have changes been made to the organ? What were these changes? Who made these changes?	Paul
+Is XX fact reliable? What are the sources of XX fact?	Paul
+What is the rhythm of the bassline?	Anna
+What is the rhythm of the electronic drum kit?	Anna
+Where was the musical composition X performed? *(musical performance)*	Carolina
+In which buildings was musical composition X performed? *(musical performance)*	Carolina
+Where was the musical composition X performed for the first time? *(musical performance)*	Carolina
+In which buildings was musical composition X performed for the first time? *(musical performance)*	Carolina
+Which performers (musicians, singers) have performed musical composition X? *(musical performance)*	Carolina
+Which performers (musicians, singers) have performed musical composition X for the first time? *(musical performance)*	Carolina
+In which scores is there evidence of musical composition X? *(evidence)*	Carolina
+In which historical documents is there evidence of musical composition X? *(evidence)*	Carolina
+In which bibliographic references is there evidence of musical composition X? *(evidence)*	Carolina
+In which historical documents is there evidence of reception of musical composition X? *(evidence)*	Carolina
+In which bibliographic references is there evidence of reception of musical composition X? *(evidence)*	Carolina
+Which is the medium of performance of musical composition X? *(musical composition)*	Carolina
+Which was the first medium of performance of musical composition X? *(musical composition)*	Carolina
+Which instruments are involved in musical composition X? *(musical composition)*	Carolina
+Which voices are involved in musical composition X? *(musical composition)*	Carolina
+In which tonality was written the musical composition X for the first time? *(musical composition)*	Carolina
+Which is/are the composer(s) of the musical composition X? *(musical composition)*	Carolina
+Who has spoken about the musical composition X? *(reception of musical composition)*	Carolina
+Who has spoken about the musical performance X? *(reception of musical performance)*	Carolina
+How was the musical composition X received? *(reception of musical composition)*	Carolina
+How was the performance of musical composition X received? *(reception of musical performance)*	Carolina
+When was a musical composition performed? *(musical performance)*	Carolina
+Can we find relations between different artists and music?	Keith
+Can we find music which has a non-obvious relation to some other music?	Keith
+Can we visualize the relations between different media, different music etc?	Keith
+provide a digital space to represent and describe the concept of "Opus", and store digital scores related to an opus.	Jorge
+organize collections and subcollections, based on clear concepts (e.g., genre, composer, period...) to gather Opuses	Jorge
+provide nagivation, search and visualization tools in collections / opus	Jorge
+in addition to standard metadata (e.g., composer), expose *features* extracted from digital scores (e.g., tonality, when relevant, number of parts, etc.)	Jorge
+Identify the dimensions and/or features that are relevant to support an on-the-fly reorganization of the digital library, whenever the standard organization does not meet the user's expectations	Jorge
+propose efficient and expressive search tools, that support a progressive exploration of relevant content from an initial need	Jorge
+What are the most relevant dimensions to classify on the fly a result set ?	Jorge
+What features can be extracted on the fly from a score content to partition in a meaning ful way a score collection?	Jorge
+describe sources related to a music Opus, and link such sources with an Opus in the digital library	Jorge
+propose means to refer to *fragments* of a Opus, eg., the first 10 measures, or part B of a movement	Jorge
+define links at a level of granularity finer than the document itself. For instance associate a fragment in an Opus with the corresponding region in a scan of an external score/source (e.g., a PDF in Gallica).	Jorge
+define similarity criterias based on metadata and features of musical works (e.g., period, style, compatible instruments, difficuly...)	Jorge
+determine the most relevant criterias, or combination of criterias, to expand an initial search	Jorge
+In which collections/datasets does song X occur?	William
+In which countries does song X occur?	William
+Which compositions match with William's thematic focus for the exhibition?	William
+Which composers and performers are related to these compositions?'	William
+In which historical documents is composer X mentioned?	William
+Under which titles is this song known? (multi-language)	William
+Providing a visualisation of relations between the relevant countries, compositions, composers and performers in the various collections and their changes over time	William
+Provide overviews of the occurrences of search results across certain time periods or genres.	William
+What is the relevant metadata for music collections and what do the different fields mean?	William
+Inspect the degree to which metadata fields have been filled across the collections, see trends and gaps?	William
+CQ1. What is the difference between the ‘official’ perception of the role of music and how music is experienced?; * What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events; * What are the official sources? What are the sources produced by ordinary people?; * What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation; * What are the goals of the source?; * What is the emotional response of music listeners/authors in both types of sources?	Ortenz
+CQ2. How is music used to teach children about identity and heritage?; * In which source there is evidence of children as target audience and music as subject? ; * What are the subjects of the source? ; * What are the subjects that are related to national identity?; * What are the subjects that are related to national heritage?; * When was the source produced?; * Where was the source produced?; * Who produced the source?; * What type of source is it? E.g. Literary text, painting; * What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist; * Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events; * What is context of usage of the source? E.g. propaganda, personal account, review of an event, teaching; * How subjects/goals/contexts of usage change over time?	Ortenz
+CQ3. What is the adult perception of the role of music in children’s education?	Ortenz
+What places did muciain Z visited in her career?; * Where did she perform?; * Where did she live?	Ortenz
+Did musician X and performer Y ever met? Where, when, and why?	Ortenz
+In what context the meeting happend? ; * What is the nature of the event? ; * Was it a celebration, a festival, a private event?; * Was it a religious or a secolar event?; * Who paid to support the event?	Ortenz
+What is the provenance of the event attendees? What and how they happened to be there?; * Did they travel to reach the place?; * Where they invited? Was the meeting accidental?	Ortenz
+How can we characterize the relation among the participants?	Ortenz
+Can we identify a tune (e.g. from an oral tradition) in our collection with music in another documented collection, e.g. RISM, NEUMA, ABC	Mark
+Can we trace the origin of a melody (composer)?	Mark
+Can we compare music from different collections, e.g. from different countries to show connections/influences between musical styles?	Mark
+Can we compare music longitudinally, e.g. to see evolution of tonality and transition from modal to tonal? Working either at manuscript of collection level.	Mark
+Can we visualize changes in musical style over time, e.g. transition from modal to tonal (evolution curves - see Weiss et al. 2018 ‘Investigating style evolution of Western classical music: A computational approach’) - with zooming	Mark
+Can we visualize interconnections, e.g. of tunes which share melodic patterns or geographical origin?	Mark
+Can we link repertoires by scribes?	Mark
+Do 'national' repertoires have specific characteristics in terms of frequent patterns?	Mark
+How does translation (of lyrics) affect variation in the melody?	Mark
+Which aspects of melody vary and which remain stable in the process of transmission and adaptation?	Mark
+How did certain repertoires (e.g., Italian opera) circulate?	Mark
+What are the connections between printed sources and manuscripts? (manuscripts could be copies of printed sources)	Mark
+Can we see interconnections between organs, e.g. same builder	Mark
+Can we identify organs through a characteristic, e.g. oldest organ in the Netherlands with a keyboard to G3?	Mark
+Can we ask technical questions about the construction of the organ and which materials were made?	Mark
+Can we observe and understand trends in organs over time, e.g. how one tradition (German) influences or replaces another (Dutch) and why?	Mark
+Can we visualize change of a network over time, e.g. with a slider, and do this in a way such as to see the change without having to remember previous states?	Mark
+CQ1. What was the composer’s network (patrons, institutions …)?; * What is the “intellectual framework” of a musician? which explains why certain music was played and how it was played; * What is the time relationship between different musicians, e.g. who was working at the same time?; * What relationships exist between institutions, e.g. employment of the same musicians; and between people and institutions, e.g. between a number of composers and a printer?	Sophia
+CQ2. What relationships exist between different sources of information, e.g. payslips and accounts?	Sophia
+CQ1. What parallels are there between the composition of music and the use of language, e.g. in the use of rhetorical delivery?; * What rhetorical strategies are used in a piece of music?	Sophia
+CQ2. Why was a piece of music written to be evocative of something, e.g. the call of a cuckoo?; * What does music evoke?	Sophia
+CQ3. What different motifs exist in a piece of music?	Sophia
+CQ4. What relationships exist in a multi-line piece of music, i.e. over time and between the lines?	Sophia
+CQ5. In early written music, what is left of the preceding unwritten tradition?; * What are the sources the musician used?; * What sources, musicians, traditions influenced the musician?	Sophia
+CQ6. How does the corpus of a composer compare with that of other composers, particularly those writing at the same time?; * What are the similarities? motifs, harmony, texts	Sophia
+CQ7. Can we use a statistical comparison, or a particular ‘thumbprint’ in the music, to identify the composer of a piece of music?	Sophia
+CQ8. When a musical structure, e.g. a motif, is found in two composers, is one copied from the other, or do they come out of a previous tradition?	Sophia
+What are the instruments that play the musical piece?	Sophia
+In which group does the instrument belong to?	Sophia
+In which family does the instrument belong to?	Sophia
+Which is the timbre of the instrument?	Sophia
+Which is the range of pitches available on the instrument?	Sophia
+Which is the dynamic range of the instrument?	Sophia
+Which is the notation convention of the instrument?	Sophia
+With which genre is the instrument related to? (To be considered)	Sophia
+In what genre of music the instrument was used?	Sophia
+In what combinations of instruments the instrument was used?	Sophia
+What are the differences between ancient and modern version of the same instrument?	Sophia
+What is the connection between two musical pieces?; -	Sonia
+Is a musical piece connected to another musical piece by historical event?; -	Sonia
+Which feature is selected to create the shuffle?; -	Sonia
+What are the types of features that are used to create shuffles?; -	Sonia
+Which is the immediate previous/next musical piece?; -	Sonia
+Is a musical piece connected to another musical piece by common people?	Sonia
+What is the musical piece that the persona selects?; -	Sonia
+With which image/textual information/multimedia/musical piece is the selected musical piece connected to inside/outside the playlist?; -	Sonia
+Which is the melodic pattern of the musical piece?; -	Sonia
+In which other musical pieces does the melodic pattern appear?; -	Sonia
+Who is/are the composer(s)/musician(s) of the musical piece?; -	Sonia
+What information is available for the composer(s)/musician(s)?; -	Sonia
+When/Where was the musical piece recorded?; -	Sonia
+Has another musical piece "the user likes" been recorded in the same venue?; -	Sonia
+Are there excerpts of the lyrics available for a musical piece? If yes, which are they?; -	Sonia
+Is the excerpt of the lyric featured in other musical pieces?; -	Sonia
+Which is the source of the excerpt of the lyrics?; -	Sonia
+Is there a person mentioned in the excerpt of the lyrics? If yes, what background information is available for him/her?	Sonia
+Where is the building?; - Where is the church/bell tower?; -	Keoma
+When (what year) was the building built?; -	Keoma
+In which context is the building located (urban, periurban...)? ; -	Keoma
+Are there bells in the church? How many bells are in the church?; -	Keoma
+Which is the mounting system of the bell?; -	Keoma
+Which is the material of the bell?; -	Keoma
+By whom (by which foundry) were they melted?; -	Keoma
+In which year were they melted?; -	Keoma
+Which is the nominal/fundamental note of the bell?; -	Keoma
+Which is the extension of the whole set of bells in a bell tower?; -	Keoma
+Which is the weight of the bell?; -	Keoma
+Which are the measures of the bell?; - mouth diameter; sound bow...; -	Keoma
+What kind of execution techniques are possible to perform according to a specific mounting system?; -	Keoma
+Can a set of bells be played electrically, manually, or both?; -	Keoma
+How/Using which tools/Using which execution technique(s) is the set of bells played, when played manually?; - TO BE COMPLETED; **old**	Keoma
+What kind of repertoire is traditionally performed in that specific location?	Keoma
+What is the dating that accompanies this repertoire?	Keoma
+Is it a repertoire performed in the contemporary world?	Keoma
+Is it a repertoire in that place currently performed by hand or by electric means?	Keoma
+How many people are generally employed for the performance of these sound practices?	Keoma
+Are there significant variations in the frequencies between the manually produced sound and the electric sound, such as to have repercussions on the soundscape?	Keoma
+Are there historical evidences of the presence of that sound in the surrounding area?	Keoma
+Search organs with the possibility to combine searches, based on various features. (In this scenario: city, building, organ builder, disposition)	Frank
+Which organ builders worked on whose (original organ builder’s) organs?	Frank
+Who built and/or renovated XX organ?	Frank
+What was the disposition of the organ at a specific point in time?	Frank
+Which organs have a similar disposition?	Frank
+What does the organ look like?	Frank
+What are the arthistorical features of the front of the organ? In which style is the organ built?	Frank
+What are the decorative elements?	Frank
+Which organs are built in a similar style?	Frank
+Search operations should be expressed on either raw-level features (eg melodic lines) or higher-level features (eg modes, cadences, triad patterns, etc.). The systm should retrieve efficiently all sources that match the search pattern, and identifiy pattern occurrences	Sethus
+A subset can be hierarchically refined based on criteria independant from on another and independant from the initial search pattern. The user can navigate in this hierarchy and refine the search.	Sethus
+At each step, the result set takes the form of a subcorpus organized according to rich relationships, and enriched with user annotations	Sethus
+A result set can be stored (in intention, not in extension) as a Relevant Corpus, and its definition can be revised at any moment	Sethus
+navigating through a Relevant Corpus is based on anotation and search patterns	Sethus
+To which modes Vide homo has been assigned to in Tonalities? Leonhard, Bernhard, Harold, Siegfried, Frans and Alexander relate the motet to the tonus peregrinus. Robert, however, considers the work to be written in the mixolydian mode.	Sethus
+Are the criteria on which these interpretations are based true in the score and, if so, to what extent? ; - What are the cadence points in the work? ; - What are the part’s ranges? Do they correspond to modal octaves? ; - What is the final of the bassus? ; - What is the last chord? ; - Are there any melodic patterns related to modality? ; - To what diatonic environment does the work belong to? ; - What are the part’s clefs and keys? ; - Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work? ; - What is the tension between the expected theoretical criteria and their actual realisation in the work?	Sethus
+Can one assume that the modal ambiguity evidenced by the analytical interpretations is intended? Harold sees, for example, the use of modes in Lagrime as a religious symbol. Alexander suggests that Tansillo's texts set to music by Lassus can be read as an examination of conscience, advocated by post-Tridentine spirituality. Can these hypotheses be substantiated on the basis of Polifonia's analytical and heritage knowledge? ; - Where does the work appear within the cycle? ; - What do we know about this cycle and its place in Lassus' output? ; - Which poetic text is set to music? ; - Has this poetic text been set to music before?	Sethus
+Apart from Lasso’s possible exegetical intentions, what does this work tell us about the status of the modes at this moment in the history of composition? ; - Is the modal ambiguity observed here frequent in Lasso’s output? ; - Do other works come close, in terms of their inner properties, to what is observed here? ; - Is the ambiguity observed here specific to particular groups of works?	Sethus
+To which modes Vide homo has been assigned to in Tonalities? Leonhard, Bernhard, Harold, Siegfried, Frans and Alexander relate the motet to the tonus peregrinus. Robert, however, considers the work to be written in the mixolydian mode.	Sethus
+Are the criteria on which these interpretations are based true in the score and, if so, to what extent?	Sethus
+What are the cadence points in the work?	Sethus
+What are the part’s ranges? Do they correspond to modal octaves?	Sethus
+What is the final of the bassus?	Sethus
+What is the last chord?	Sethus
+Are there any melodic patterns related to modality?	Sethus
+To what diatonic environment does the work belong to?	Sethus
+What are the part’s clefs and keys?	Sethus
+Are the theoretical models on which these criteria are based – for example the Zarlinian cadential scheme ^1-^3-^5 – in line with this work?	Sethus
+What is the tension between the expected theoretical criteria and their actual realisation in the work?; [Metadata updated section]	Sethus
+To what corpus does this work belong?	Sethus
+What is the name of the corpus?	Sethus
+What is the pseudonyme of the composer for X?	Sethus
+What is the birthdate of the composer?	Sethus
+What is the deathdate of the composer?	Sethus
+To what genre does the composition belong?	Sethus
+To what collection does of the composition belong?	Sethus
+Is the composition part of another composition?	Sethus
+Is the composition quoted in other compositions?	Sethus
+Does the composition contain any quotation from other composition(s)?	Sethus
+What is the origin of the composition?	Sethus
+If available online, what is the URL of the composition?	Sethus
+In the case of a manuscript/printed sources, where is it housed?	Sethus
+Who is the scientific editor of the composition?	Sethus
+If any, what is the license of the transcription?	Sethus
+What is the year of publication of the music printed source?	Sethus
+Where was the music printed source published?	Sethus
+What is the editor of the music printed source?	Sethus
+In what electronic format is the composition available?	Sethus
+What is the licence of the final reused/modified electronic format of the score?	Sethus
+What was Wagner's first performance in Bologna? On what date?	Valeriana
+What was Verdi's first performance in Bologna? On what date?	Valeriana
+Who were the public figures who participated in event X (or Y)?	Valeriana
+Who were the musicians who participated in event X (or Y)?	Valeriana
+Who talked about event X (or Y)?	Valeriana
+In which works is event X recounted/traced?	Valeriana
+What were the critical reactions to event X (or Y)? Are them positives?	Valeriana
+CQ1)what are the meanings of the word 'vocality' in Italian (x)?	Valeriana
+CQ2)What are the meanings of the word 'vocality' in French (y)?	Valeriana
+CQ3) What are the meanings of the word 'vocality' in German (z)?	Valeriana
+CQ4) What are the meanings of the word 'vocality' in Spanish (h)?	Valeriana
+CQ5)How do the words x and y change over time?	Valeriana
+CQ6)What contexts are the word x, y, z, h related to?	Valeriana
+CQ7) How do these contexts change over time?	Valeriana
+Search organs with the possibility to combine searches, based on various features.	Amy
+Where can more information be found about a specific organ/organ builder/time period/location/etc.? / Which literature or resources contain information about a specific organ/organ builder/time period/location/etc.?	Amy
+Which organ builders worked on whose (original organ builder’s) organs?	Amy
+Search organs with the possibility to combine searches, based on various features.	Amy
+Is XX fact reliable? What are the sources of XX fact?	Amy
+What is left from the original organs built by XX organ builder? Where are these original components now?	Amy
+Which changes have been made to the original organs? When were these changes made? Who made the changes? To what degree are the organs (or components of organs) in their original state?	Amy
+What are the arthistorical features of the front of the organ? In which style is the organ built?	Amy
+When (and why) was the organ moved? Where was the organ placed originally?	Amy
+Where can more information be found about a specific organ/organ builder/time period/location/etc.? / Which literature or resources contain information about a specific organ/organ builder/time period/location/etc.?	Amy
+What are longitudinal changes of certain characteristics of organs or organ builders?	Amy
+What are geographically distinct features? (e.g., in what differ 17th century Southern German organs from 17th century Spanish organs?).	Amy
+What music was being played?	David
+Who was listening to the music?	David
+How did the instruments used change over time?	David
+What was source of money – e.g. for instruments?	David
+Where were the musicians coming from?	David
+Who were teaching the musicians?	David
+Where were the places (in which they played)?	David
+How were instruments sold?	David
+What was the sales pitch?	David
+How does the world of brass bands connect with that of elite music?	David
+What did people ‘make of’, how did they react to, e.g. music?	David
+Who was the author of a piece of music?; e.g. can we identify it by its incipit?	David
+What was the country of origin of a piece of music?	David
+What is the cause of a change, e.g. increasing number of concerts over time?	David
+Who is the poet (librettist) associated with a text?	Ralph
+What is the emotion represented by a portion of text (~140 categories)?	Ralph
+How do libretto and music relate, e.g. in describing an emotion?	Ralph
+How does the presentation (text and music) of a work, e.g. an operatic aria, change over time, and depending on the artist?	Ralph
+How have the music and libretto been influenced by the historical, e.g. social, political and cultural, environment?	Ralph
+How can one describe and classify a scenario?	Ralph
+Where is the Bell Tower?	Patrizia
+What kind of execution characterizes that bell tower?	Patrizia
+Are there formalized collective actors who carry out sound practices?	Patrizia
+Are there formalized transmission methods that characterize the acquisition of skills related to the bell practice?	Patrizia
+Which age groups do the transmission practices involve?	Patrizia
+Do transmission practices involve both men and women?	Patrizia
+Do transmission practices include the organization of public events?	Patrizia
