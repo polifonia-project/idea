@@ -6,8 +6,8 @@
           260,
           384
         ],
-        "tensorPath": "https://github.com/polifonia-project/idea/blob/main/data/projections/00000/PolifoniaCQ/tensors.tsv",
-        "metadataPath": "https://github.com/polifonia-project/idea/blob/main/data/projections/00000/PolifoniaCQ/metadata.tsv"
+        "tensorPath": "https://raw.githubusercontent.com/polifonia-project/idea/main/data/projections/00000/PolifoniaCQ/tensors.tsv",
+        "metadataPath": "https://raw.githubusercontent.com/polifonia-project/idea/main/data/projections/00000/PolifoniaCQ/metadata.tsv"
       }
     ]
   }
