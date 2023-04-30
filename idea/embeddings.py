@@ -9,6 +9,7 @@ import numpy as np
 
 from torch.utils.tensorboard import SummaryWriter
 from sentence_transformers import SentenceTransformer
+from sentence_transformers.util import semantic_search
 from sklearn.cluster import AgglomerativeClustering
 
 logger = logging.getLogger("idea.extractor")
@@ -71,4 +72,44 @@ def compute_embeddings(dataset_cq, model="all-MiniLM-L6-v2", device="cpu",
                              metadata=metadata, tag='PolifoniaCQ')
         writer.close()
 
-    return cq_embeddings
+    return cleaned_question, personas, cq_embeddings
+
+
+class SemanticSearch(object):
+
+    def __init__(self, questions, embeddings, model="quora-distilbert-multilingual"):
+
+        self.model = SentenceTransformer(model)
+        self.questions = questions
+        self.embeddings = embeddings
+
+    def search(self, query, top_k=5, simi_threshold=None):
+        """
+        Search the CQ dataset based on the given question and parameters.
+
+        Parameters
+        ----------
+        query : str
+            A textual query to use for the search (multi-language support).
+        top_k : int, optional
+            Maximum number of potential matches to return / print.
+        simi_threshold : float, optional
+            A float scalar in the (0, 1] interval to filter out results.
+
+        Returns
+        -------
+        matches : list of dicts
+            A list of potential matches (CQs) where each element is a dictionary
+            containing the ID of the matched competency question and the score.
+
+        """
+        question_embedding = self.model.encode(query, convert_to_tensor=True)
+        matches = semantic_search(question_embedding, self.embeddings, top_k=top_k)
+        matches = matches[0]  # here we assume 1 question as input
+
+        print(f"Similar CQs to query: *{query}*")
+        for hit in matches[0:top_k]:
+            print("\t{:.3f}\t{}".format(
+                hit['score'], self.questions[hit['corpus_id']]))
+
+        return matches
