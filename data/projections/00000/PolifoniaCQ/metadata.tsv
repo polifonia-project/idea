@@ -16,33 +16,33 @@ Is there a way of visualizing all the materials connected to my interests?	Andre
 Can I keep getting suggestions in real time?	Andrea
 How can I share what I find on the site?	Andrea
 How I personalize my navigation experience without knowing the filtering criteria or the materials' characteristics?	Andrea
-Retrieve all organs at location X.	Paul
-Retrieve all organs in city X.	Paul
-Retrieve all organs near to geographic coordinates x, y.	Paul
-Retrieve all organs that have stop X.	Paul
-Retrieve all organs with playing aid X.	Paul
-Retrieve all organs with more than X stops.	Paul
-Retrieve all organs with more than X keyboards.	Paul
-Retrieve all organs with manual range starting lower than X.	Paul
-Retrieve all organs with manual range ending higher than X.	Paul
-Retrieve all organs with pedal range starting lower than X.	Paul
-Retrieve all organs with pedal range ending higher than X.	Paul
-Retrieve all organs with wind system type X.	Paul
-Retrieve all organs with temperament X.	Paul
-Retrieve all organs with year of construction after X.	Paul
-Retrieve all organs with year of construction before X.	Paul
-Retrieve all organs built by organ builder X.	Paul
-Retrieve all organs which has been maintained or restored by builder X.	Paul
-Retrieve all organs that are linked to person X.	Paul
-Retrieve all organs with more than X bellows.	Paul
-Retrieve all organs with pitch heigher than X Hz.	Paul
-Retrieve all organs with wind pressure higher than X mm.	Paul
-Retrieve all organs with wind pressure lower than X mm.	Paul
-Retrieve all organs with key action type X.	Paul
-Retrieve all organs with stop action type X.	Paul
-Retrieve all organs with pitch lower than X Hz.	Paul
-Retrieve all organs with console location X.	Paul
-Retrieve all organs based on search term X.	Paul
+Which are all organs at location X?	Paul
+Which are all organs in city X?	Paul
+Which are all organs near to geographic coordinates x, y?	Paul
+Which are all organs that have stop X?	Paul
+Which are all organs with playing aid X?	Paul
+Which are all organs with more than X stops?	Paul
+Which are all organs with more than X keyboards?	Paul
+Which are all organs with manual range starting lower than X?	Paul
+Which are all organs with manual range ending higher than X?	Paul
+Which are all organs with pedal range starting lower than X?	Paul
+Which are all organs with pedal range ending higher than X?	Paul
+Which are all organs with wind system type X?	Paul
+Which are all organs with temperament X?	Paul
+Which are all organs with year of construction after X?	Paul
+Which are all organs with year of construction before X?	Paul
+Which are all organs built by organ builder X?	Paul
+Which are all organs which has been maintained or restored by builder X?	Paul
+Which are all organs that are linked to person X?	Paul
+Which are all organs with more than X bellows?	Paul
+Which are all organs with pitch heigher than X Hz?	Paul
+Which are all organs with wind pressure higher than X mm?	Paul
+Which are all organs with wind pressure lower than X mm?	Paul
+Which are all organs with key action type X?	Paul
+Which are all organs with stop action type X?	Paul
+Which are all organs with pitch lower than X Hz?	Paul
+Which are all organs with console location X?	Paul
+Which are all organs based on search term X?	Paul
 Who was the builder of organ X?	Paul
 What is the current location of organ X?	Paul
 What were previous locations of organ X?	Paul
@@ -77,7 +77,7 @@ Which parts of deconstructed organ X are still in existence?	Paul
 Where are parts of deconstructed organ X currently located?	Paul
 Which components of organ X have been reused from other (earlier) organs?	Paul
 What is the origin of component X of organ Y?	Paul
-Retrieve all organs that have components made by organ builder X.	Paul
+Which are all organs that have components made by organ builder X?	Paul
 What are the sources for fact X?	Paul
 What is the rhythm of the bassline?	Anna
 What is the rhythm of the electronic drum kit?	Anna
@@ -131,9 +131,28 @@ How many search results are there per time period?	William
 How many search results are there per genre?	William
 What is the relevant metadata for music collections and what do the different fields mean?	William
 Inspect the degree to which metadata fields have been filled across the collections, see trends and gaps?	William
-CQ1. What is the difference between the ‘official’ perception of the role of music and how music is experienced?; * What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events; * What are the official sources? What are the sources produced by ordinary people?; * What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation; * What are the goals of the source?; * What is the emotional response of music listeners/authors in both types of sources?	Ortenz
-CQ2. How is music used to teach children about identity and heritage?; * In which source there is evidence of children as target audience and music as subject? ; * What are the subjects of the source? ; * What are the subjects that are related to national identity?; * What are the subjects that are related to national heritage?; * When was the source produced?; * Where was the source produced?; * Who produced the source?; * What type of source is it? E.g. Literary text, painting; * What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist; * Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events; * What is context of usage of the source? E.g. propaganda, personal account, review of an event, teaching; * How subjects/goals/contexts of usage change over time?	Ortenz
-CQ3. What is the adult perception of the role of music in children’s education?	Ortenz
+CQ1. What is the difference between the ‘official’ perception of the role of music and how music is experienced?; *	Ortenz
+CQ1.1 What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events; *	Ortenz
+CQ1.2 What are the official sources? What are the sources produced by ordinary people?; *	Ortenz
+CQ1.3 What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation; *	Ortenz
+CQ1.4 What are the goals of the source?; *	Ortenz
+CQ1.5 What is the emotional response of music listeners/authors in both types of sources?	Ortenz
+CQ2. How is music used to teach children about identity and heritage?; *	Ortenz
+CQ2.1 In which source there is evidence of children as target audience and music as subject? ; *	Ortenz
+CQ2.2 What are the subjects of the source? ; *	Ortenz
+CQ2.3 What are the subjects that are related to national identity?; *	Ortenz
+CQ2.4 What are the subjects that are related to national heritage?; *	Ortenz
+CQ2.5 When was the source produced?; *	Ortenz
+CQ2.6 Where was the source produced?; *	Ortenz
+CQ2.7 Who produced the source?; *	Ortenz
+CQ2.8 What type of source is it? E.g. Literary text, painting; *	Ortenz
+CQ2.9 What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist; *	Ortenz
+CQ2.10 Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events; *	Ortenz
+CQ2.11 What is context of usage of the source? E.g. propaganda, personal account, review of an event, teaching; *	Ortenz
+CQ2.12 How subjects/goals/contexts of usage change over time?	Ortenz
+CQ3. What is the adult perception of the role of music in children’s education?; *	Ortenz
+CQ3.1 What is the goal of the official sources?; *	Ortenz
+CQ3.2 To what extent are music subjects relevant (among the others) in official sources targeted to children?	Ortenz
 What places did muciain Z visited in her career?; * Where did she perform?; * Where did she live?	Ortenz
 Did musician X and performer Y ever met? Where, when, and why?	Ortenz
 In what context the meeting happend? ; * What is the nature of the event? ; * Was it a celebration, a festival, a private event?; * Was it a religious or a secolar event?; * Who paid to support the event?	Ortenz
@@ -144,7 +163,7 @@ What is the name of the composer specified in the source of this composition?	Ma
 What is the similarity between compositions X and Y given similarity measure Z?	Mark
 Which tunes are similar to tune X given similarity measure Y?	Mark
 Who (which source) attributed composition X to composer Y?	Mark
-Retrieve all known concordances (same composition/tune in another source).	Mark
+Which are all known concordances (same composition/tune in another source)?	Mark
 Which concordances of composition X have a composer name associated?	Mark
 What is the geographic origin of source X?	Mark
 Who were the owners of (manuscript) source X?	Mark
@@ -152,7 +171,7 @@ Who was/were the scribe(s) of (manuscript) source X?	Mark
 What was the repertoire of scribe X (i.e. all compostions written down by X)?	Mark
 Who was the publisher of (printed) source X?	Mark
 What is publication year of printed source X?	Mark
-Retrieve all compositions that are in source X.	Mark
+Which are all compositions that are in source X?	Mark
 What is current location of source X?	Mark
 Where to find a digital scan of source X (url)?	Mark
 What is the title of composition X in source Y?	Mark
@@ -162,6 +181,8 @@ What is the serial number of composition X in source Y?	Mark
 What printed source shares content with manuscript X?	Mark
 What is the language of the lyrics of tune X?	Mark
 Has composition X been identified as variant in a tune family?	Mark
+Which tune family does composition X belong to?	Mark
+Who assigned composition X to tune family Y?	Mark
 With what level of confidence is composition X a variant in tune family Y?	Mark
 What are all compositions in tune family X?	Mark
 What are the similarities / differences of all compositions in tune family X according to measure Y?	Mark

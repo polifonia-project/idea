@@ -16,33 +16,33 @@ Andrea,1_Serendipity,CQ3,Is there a way of visualizing all the materials connect
 Andrea,1_Serendipity,CQ4,Can I keep getting suggestions in real time?,pass
 Andrea,1_Serendipity,CQ5,How can I share what I find on the site?,pass
 Andrea,1_Serendipity,CQ6,How I personalize my navigation experience without knowing the filtering criteria or the materials' characteristics?,pass
-Paul,1_OrganComparison,CQ1,Retrieve all organs at location X.,['incomplete']
-Paul,1_OrganComparison,CQ2,Retrieve all organs in city X.,['incomplete']
-Paul,1_OrganComparison,CQ3,"Retrieve all organs near to geographic coordinates x, y.",['incomplete']
-Paul,1_OrganComparison,CQ4,Retrieve all organs that have stop X.,['incomplete']
-Paul,1_OrganComparison,CQ5,Retrieve all organs with playing aid X.,['incomplete']
-Paul,1_OrganComparison,CQ6,Retrieve all organs with more than X stops.,['incomplete']
-Paul,1_OrganComparison,CQ7,Retrieve all organs with more than X keyboards.,['incomplete']
-Paul,1_OrganComparison,CQ8,Retrieve all organs with manual range starting lower than X.,['incomplete']
-Paul,1_OrganComparison,CQ9,Retrieve all organs with manual range ending higher than X.,['incomplete']
-Paul,1_OrganComparison,CQ10,Retrieve all organs with pedal range starting lower than X.,['incomplete']
-Paul,1_OrganComparison,CQ11,Retrieve all organs with pedal range ending higher than X.,['incomplete']
-Paul,1_OrganComparison,CQ12,Retrieve all organs with wind system type X.,['incomplete']
-Paul,1_OrganComparison,CQ13,Retrieve all organs with temperament X.,['incomplete']
-Paul,1_OrganComparison,CQ14,Retrieve all organs with year of construction after X.,['incomplete']
-Paul,1_OrganComparison,CQ15,Retrieve all organs with year of construction before X.,['incomplete']
-Paul,1_OrganComparison,CQ16,Retrieve all organs built by organ builder X.,['incomplete']
-Paul,1_OrganComparison,CQ17,Retrieve all organs which has been maintained or restored by builder X.,['incomplete']
-Paul,1_OrganComparison,CQ18,Retrieve all organs that are linked to person X.,['incomplete']
-Paul,1_OrganComparison,CQ19,Retrieve all organs with more than X bellows.,['incomplete']
-Paul,1_OrganComparison,CQ20,Retrieve all organs with pitch heigher than X Hz.,['incomplete']
-Paul,1_OrganComparison,CQ21,Retrieve all organs with wind pressure higher than X mm.,['incomplete']
-Paul,1_OrganComparison,CQ22,Retrieve all organs with wind pressure lower than X mm.,['incomplete']
-Paul,1_OrganComparison,CQ23,Retrieve all organs with key action type X.,['incomplete']
-Paul,1_OrganComparison,CQ24,Retrieve all organs with stop action type X.,['incomplete']
-Paul,1_OrganComparison,CQ25,Retrieve all organs with pitch lower than X Hz.,['incomplete']
-Paul,1_OrganComparison,CQ26,Retrieve all organs with console location X.,['incomplete']
-Paul,1_OrganComparison,CQ27,Retrieve all organs based on search term X.,['incomplete']
+Paul,1_OrganComparison,CQ1,Which are all organs at location X?,pass
+Paul,1_OrganComparison,CQ2,Which are all organs in city X?,pass
+Paul,1_OrganComparison,CQ3,"Which are all organs near to geographic coordinates x, y?",pass
+Paul,1_OrganComparison,CQ4,Which are all organs that have stop X?,pass
+Paul,1_OrganComparison,CQ5,Which are all organs with playing aid X?,pass
+Paul,1_OrganComparison,CQ6,Which are all organs with more than X stops?,pass
+Paul,1_OrganComparison,CQ7,Which are all organs with more than X keyboards?,pass
+Paul,1_OrganComparison,CQ8,Which are all organs with manual range starting lower than X?,pass
+Paul,1_OrganComparison,CQ9,Which are all organs with manual range ending higher than X?,pass
+Paul,1_OrganComparison,CQ10,Which are all organs with pedal range starting lower than X?,pass
+Paul,1_OrganComparison,CQ11,Which are all organs with pedal range ending higher than X?,pass
+Paul,1_OrganComparison,CQ12,Which are all organs with wind system type X?,pass
+Paul,1_OrganComparison,CQ13,Which are all organs with temperament X?,pass
+Paul,1_OrganComparison,CQ14,Which are all organs with year of construction after X?,pass
+Paul,1_OrganComparison,CQ15,Which are all organs with year of construction before X?,pass
+Paul,1_OrganComparison,CQ16,Which are all organs built by organ builder X?,pass
+Paul,1_OrganComparison,CQ17,Which are all organs which has been maintained or restored by builder X?,pass
+Paul,1_OrganComparison,CQ18,Which are all organs that are linked to person X?,pass
+Paul,1_OrganComparison,CQ19,Which are all organs with more than X bellows?,pass
+Paul,1_OrganComparison,CQ20,Which are all organs with pitch heigher than X Hz?,pass
+Paul,1_OrganComparison,CQ21,Which are all organs with wind pressure higher than X mm?,pass
+Paul,1_OrganComparison,CQ22,Which are all organs with wind pressure lower than X mm?,pass
+Paul,1_OrganComparison,CQ23,Which are all organs with key action type X?,pass
+Paul,1_OrganComparison,CQ24,Which are all organs with stop action type X?,pass
+Paul,1_OrganComparison,CQ25,Which are all organs with pitch lower than X Hz?,pass
+Paul,1_OrganComparison,CQ26,Which are all organs with console location X?,pass
+Paul,1_OrganComparison,CQ27,Which are all organs based on search term X?,pass
 Paul,1_OrganComparison,CQ28,Who was the builder of organ X?,pass
 Paul,1_OrganComparison,CQ29,What is the current location of organ X?,pass
 Paul,1_OrganComparison,CQ30,What were previous locations of organ X?,pass
@@ -77,7 +77,7 @@ Paul,1_OrganComparison,CQ58,Which parts of deconstructed organ X are still in ex
 Paul,1_OrganComparison,CQ59,Where are parts of deconstructed organ X currently located?,pass
 Paul,1_OrganComparison,CQ60,Which components of organ X have been reused from other (earlier) organs?,pass
 Paul,1_OrganComparison,CQ61,What is the origin of component X of organ Y?,pass
-Paul,1_OrganComparison,CQ62,Retrieve all organs that have components made by organ builder X.,['incomplete']
+Paul,1_OrganComparison,CQ62,Which are all organs that have components made by organ builder X?,pass
 Paul,2_ResourceReliability,CQ42,What are the sources for fact X?,pass
 Anna,1_HearingMusic,CQ1,What is the rhythm of the bassline?,pass
 Anna,1_HearingMusic,CQ2,What is the rhythm of the electronic drum kit?,pass
@@ -133,26 +133,48 @@ William,1_EuropeanFolkMusic,CQ11,What is the relevant metadata for music collect
 William,1_EuropeanFolkMusic,CQ12,"Inspect the degree to which metadata fields have been filled across the collections, see trends and gaps?",pass
 Ortenz,1_MusicAndChildhood,CQ1,"CQ1. What is the difference between the ‘official’ perception of the role of music and how music is experienced?
 
- * What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events
- * What are the official sources? What are the sources produced by ordinary people?
- * What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation
- * What are the goals of the source?
- * What is the emotional response of music listeners/authors in both types of sources?","['to-split', 'complex', 'hard']"
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.1 What are the aspects that characterize an official source? E.g. context of production, creator’s role, relation between the source and political or national events
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.2 What are the official sources? What are the sources produced by ordinary people?
+ *",['to-split']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.3 What are the aspects that characterize the source at hand as trustworthy? E.g. context of production, creator’s occupation
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ1,"CQ1.4 What are the goals of the source?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ1,CQ1.5 What is the emotional response of music listeners/authors in both types of sources?,pass
 Ortenz,1_MusicAndChildhood,CQ2,"CQ2. How is music used to teach children about identity and heritage?
 
- * In which source there is evidence of children as target audience and music as subject?  
- * What are the subjects of the source?  
- * What are the subjects that are related to national identity?
- * What are the subjects that are related to national heritage?
- * When was the source produced?
- * Where was the source produced?
- * Who produced the source?
- * What type of source is it? E.g. Literary text, painting
- * What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist
- * Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events
- * What is context of usage of the source? E.g. propaganda, personal account, review of an event, teaching
- * How subjects/goals/contexts of usage change over time?","['to-split', 'complex', 'hard']"
-Ortenz,1_MusicAndChildhood,CQ3,CQ3. What is the adult perception of the role of music in children’s education?,pass
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.1 In which source there is evidence of children as target audience and music as subject?  
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.2 What are the subjects of the source?  
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.3 What are the subjects that are related to national identity?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.4 What are the subjects that are related to national heritage?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.5 When was the source produced?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.6 Where was the source produced?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.7 Who produced the source?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.8 What type of source is it? E.g. Literary text, painting
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.9 What is the context of production of the source? E.g. academic, official source, personal or primary source, commission to an artist
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.10 Are there related events connected to the production of the source? E.g. national fests, war period, political or historical events
+ *",['hard']
+Ortenz,1_MusicAndChildhood,CQ2,"CQ2.11 What is context of usage of the source? E.g. propaganda, personal account, review of an event, teaching
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ2,CQ2.12 How subjects/goals/contexts of usage change over time?,pass
+Ortenz,1_MusicAndChildhood,CQ3,"CQ3. What is the adult perception of the role of music in children’s education?
+
+ *",['complex']
+Ortenz,1_MusicAndChildhood,CQ3,"CQ3.1 What is the goal of the official sources?
+ *",pass
+Ortenz,1_MusicAndChildhood,CQ3,CQ3.2 To what extent are music subjects relevant (among the others) in official sources targeted to children?,pass
 Ortenz,2_MusicalSocialNetwork,CQ1,"What places did muciain Z visited in her career?
 
 * Where did she perform?
@@ -174,7 +196,7 @@ Mark,1_FolkMusic,CQ2,What is the name of the composer specified in the source of
 Mark,1_FolkMusic,CQ3,What is the similarity between compositions X and Y given similarity measure Z?,pass
 Mark,1_FolkMusic,CQ4,Which tunes are similar to tune X given similarity measure Y?,pass
 Mark,1_FolkMusic,CQ5,Who (which source) attributed composition X to composer Y?,pass
-Mark,1_FolkMusic,CQ6,Retrieve all known concordances (same composition/tune in another source).,['incomplete']
+Mark,1_FolkMusic,CQ6,Which are all known concordances (same composition/tune in another source)?,pass
 Mark,1_FolkMusic,CQ7,Which concordances of composition X have a composer name associated?,pass
 Mark,1_FolkMusic,CQ8,What is the geographic origin of source X?,pass
 Mark,1_FolkMusic,CQ9,Who were the owners of (manuscript) source X?,pass
@@ -182,7 +204,7 @@ Mark,1_FolkMusic,CQ10,Who was/were the scribe(s) of (manuscript) source X?,pass
 Mark,1_FolkMusic,CQ11,What was the repertoire of scribe X (i.e. all compostions written down by X)?,pass
 Mark,1_FolkMusic,CQ12,Who was the publisher of (printed) source X?,pass
 Mark,1_FolkMusic,CQ13,What is publication year of printed source X?,pass
-Mark,1_FolkMusic,CQ14,Retrieve all compositions that are in source X.,['incomplete']
+Mark,1_FolkMusic,CQ14,Which are all compositions that are in source X?,pass
 Mark,1_FolkMusic,CQ15,What is current location of source X?,pass
 Mark,1_FolkMusic,CQ16,Where to find a digital scan of source X (url)?,pass
 Mark,1_FolkMusic,CQ17,What is the title of composition X in source Y?,pass
@@ -192,17 +214,19 @@ Mark,1_FolkMusic,CQ20,What is the serial number of composition X in source Y?,pa
 Mark,1_FolkMusic,CQ21,What printed source shares content with manuscript X?,pass
 Mark,1_FolkMusic,CQ22,What is the language of the lyrics of tune X?,pass
 Mark,1_FolkMusic,CQ23,Has composition X been identified as variant in a tune family?,pass
-Mark,1_FolkMusic,CQ24,With what level of confidence is composition X a variant in tune family Y?,pass
-Mark,1_FolkMusic,CQ25,What are all compositions in tune family X?,pass
-Mark,1_FolkMusic,CQ26,What are the similarities / differences of all compositions in tune family X according to measure Y?,pass
-Mark,1_FolkMusic,CQ27,"To what tune families is tune family X related, given similarity measure Y?",pass
-Mark,1_FolkMusic,CQ28,What are alternative titles for composition X?,pass
-Mark,1_FolkMusic,CQ29,What are the differences / similarities between two corpora of compositions concerning features Y1..Yn?,pass
-Mark,1_FolkMusic,CQ30,What are longitudinal differences / similarities within a corpus concerning features Y1..Yn?,pass
-Mark,1_FolkMusic,CQ31,What are the differences / similarities between two corpora of compositions concerning occurrences of patterns?,pass
-Mark,1_FolkMusic,CQ32,What are longitudinal differences / similarities within a corpus concerning occurrences of patterns?,pass
-Mark,1_FolkMusic,CQ33,What patterns do the compositions in corpus X share?,pass
-Mark,1_FolkMusic,CQ34,"What patterns are overrepresented in corpus X compared to corpus Y?
+Mark,1_FolkMusic,CQ24,Which tune family does composition X belong to?,pass
+Mark,1_FolkMusic,CQ25,Who assigned composition X to tune family Y?,pass
+Mark,1_FolkMusic,CQ26,With what level of confidence is composition X a variant in tune family Y?,pass
+Mark,1_FolkMusic,CQ27,What are all compositions in tune family X?,pass
+Mark,1_FolkMusic,CQ28,What are the similarities / differences of all compositions in tune family X according to measure Y?,pass
+Mark,1_FolkMusic,CQ29,"To what tune families is tune family X related, given similarity measure Y?",pass
+Mark,1_FolkMusic,CQ30,What are alternative titles for composition X?,pass
+Mark,1_FolkMusic,CQ31,What are the differences / similarities between two corpora of compositions concerning features Y1..Yn?,pass
+Mark,1_FolkMusic,CQ32,What are longitudinal differences / similarities within a corpus concerning features Y1..Yn?,pass
+Mark,1_FolkMusic,CQ33,What are the differences / similarities between two corpora of compositions concerning occurrences of patterns?,pass
+Mark,1_FolkMusic,CQ34,What are longitudinal differences / similarities within a corpus concerning occurrences of patterns?,pass
+Mark,1_FolkMusic,CQ35,What patterns do the compositions in corpus X share?,pass
+Mark,1_FolkMusic,CQ36,"What patterns are overrepresented in corpus X compared to corpus Y?
 
 ## Resources
 
