@@ -2,14 +2,13 @@
 Main entry point to IDEA's features.
 
 """
-import sys
 import logging
 import argparse
 
-import pandas as pd
-
 from embeddings import compute_embeddings, SemanticSearch
 from extractor import process_stories, add_status_tags
+from documentation import update_dataset_docs
+from utils import set_logger
 
 logger = logging.getLogger("idea.runner")
 
@@ -18,7 +17,8 @@ def extract_cq_dataset(args):
     """
     Extract competency questions from stories and create the PolifoniaCQ dataset
     after running sanity checks. An extra column is added to the dataset table
-    to account for any evident inconsistency found in the CQs.
+    to account for any evident inconsistency found in the CQs. This will also
+    update the documentation on the online dashboard.
 
     Parameters
     ----------
@@ -32,12 +32,15 @@ def extract_cq_dataset(args):
     cq_store_df["issues"] = cq_store_df["cq"].apply(add_status_tags)
     # Saving the CQ dataset with extra column containing sanity checks
     cq_store_df.to_csv("../data/cq_sanity_checks.csv", index=False)
-    cq_issues = cq_store_df[cq_store_df["issues"] != "pass"]
-    # Saving a selection of the dataset with only the problematic CQs
-    cq_issues.to_markdown("../data/cq_with_issues.md", index=False)
-    cq_issues.to_csv("../data/cq_with_issues.csv", index=False)
 
-    return cq_store_df, cq_issues
+    if args.validate:  # validation of competency questions based on heuristics
+        cq_issues = cq_store_df[cq_store_df["issues"] != "pass"]
+        # Save in CSV export in markdown for the update
+        cq_issues.to_csv("../data/cq_with_issues.csv", index=False)
+        cq_issues_md = cq_issues.to_markdown(index=False)
+        update_dataset_docs(cq_issues_md)
+
+    return cq_store_df
 
 
 def compute_cq_embeddings(args):
@@ -122,11 +125,14 @@ def main():
     parser.add_argument('input_dir', type=str,
                         help='Directory where the input files will be read.')
     parser.add_argument('--out_dir', type=str,
-                        help='Directory where statistics will be saved.')
+                        help='Directory where output will be saved.')
 
     parser.add_argument('--model', action='store', type=str,
                         default='all-MiniLM-L6-v2',
                         help='Name of the language model to use.')
+    # dataset params
+    parser.add_argument('--validate', action='store_true',
+                        help='Whether to validate the competency questions.')
     # search params
     parser.add_argument('--search_query', action='store', type=str,
                         help='A textual query to search against the CQs.')
@@ -140,9 +146,10 @@ def main():
     parser.add_argument('--device', action='store', type=str, default='cpu',
                         help='The default device to use for computation.')
     parser.add_argument('--n_workers', action='store', type=int, default=1,
-                        help='Number of workers for stats computation.')
+                        help='Number of workers for parallel computation.')
 
     args = parser.parse_args()
+    set_logger("idea", log_console=True)
     command_map.get(args.cmd)(args)
 
 

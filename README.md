@@ -1,4 +1,4 @@
-# Infer, Design, Create (IDEA)
+# IDEA: Infer, DEsign, crAate
 A collection of prototypes for LM-assisted ontology engineering.
 
 IDEA provides analytical tools for ontology design based on state-of-the-art natural language methods. To date, IDEA extracts the competency questions from an ontology repository, analyses them to find inconsistencies and similarities, and visually project them to a sentencelevel embedding space - hence allowing for semantic search. IDEA has been used in WP2, it allowed us to improve our work on refining requirements among the pilots, refining them in collaboration with the experts, therefore supporting the refactoring of PON. In sum, he framework has demonstrated to create synergies between different stakeholders, and to accelerate/support ontology design activities. A live dashboard is available at [this link](polifonia-project.github.io/idea/), with a screenshot reported below.
@@ -20,6 +20,17 @@ IDEA provides analytical tools for ontology design based on state-of-the-art nat
 
 ---
 
+## Installation
+It is recommended to install the development version of IDEA (the one that we currently support) on a separate environment. If you use conda, these commands will do it for you.
+```bash
+conda create -n 'idea' python=3.9
+conda activate idea
+```
+Once in your environment, you can install requirements using `pip` as follows.
+```bash
+pip install -r requirements.txt
+```
+
 ## Documentation
 The main entry point is through the CLI provided by `idea.py`. This is also how content is updated before being commited and pushed to this repository. This also allows to re-compute the dashboard with the latest data running at [this link](polifonia-project.github.io/idea/).
 ```
@@ -32,8 +43,9 @@ positional arguments:
 
 optional arguments:
   -h, --help            show this help message and exit
-  --out_dir OUT_DIR     Directory where statistics will be saved.
+  --out_dir OUT_DIR     Directory where output will be saved.
   --model MODEL         Name of the language model to use.
+  --validate            Whether to validate the competency questions.
   --search_query SEARCH_QUERY
                         A textual query to search against the CQs.
   --as_session          Whether to keep a session for more searches.
@@ -43,12 +55,12 @@ optional arguments:
                         Similarity threshold for semantic search.
   --device DEVICE       The default device to use for computation.
   --n_workers N_WORKERS
-                        Number of workers for stats computation.
+                        Number of workers for parallel computation.
 ```
 ### Create or update a CQ dataset
-To create a dataset of competency questions, just call the following command by specifying the directory where personas and stories are stored. In this case, we are using a path to [another repository](https://github.com/polifonia-project/stories) in Polifonia.  
+To create a dataset of competency questions, just call the following command by specifying the directory where personas and stories are stored. This will also update the documentation on the online dashboard. In this case, we are using a path to [another repository](https://github.com/polifonia-project/stories) in Polifonia.  
 ```bash
-python idea.py dataset ../../stories
+python idea.py dataset ../../stories --validate
 ```
 
 ### Compute and visualise CQ embeddings
