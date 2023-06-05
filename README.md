@@ -6,7 +6,7 @@ A collection of prototypes for LM-assisted ontology engineering.
 
 IDEA provides analytical tools for ontology design based on state-of-the-art natural language methods. To date, IDEA extracts the competency questions from an ontology repository, analyses them to find inconsistencies and similarities, and visually project them to a sentencelevel embedding space - hence allowing for semantic search. IDEA has been used in WP2, it allowed us to improve our work on refining requirements among the pilots, refining them in collaboration with the experts, therefore supporting the refactoring of PON. In sum, he framework has demonstrated to create synergies between different stakeholders, and to accelerate/support ontology design activities. A live dashboard is available at [this link](polifonia-project.github.io/idea/), with a screenshot reported below.
 
-![Dashboard](assets/dashboard.png)
+![Workflow](assets/workflow.png)
 
 ## Functionalities of IDEA
 
@@ -20,6 +20,9 @@ IDEA provides analytical tools for ontology design based on state-of-the-art nat
 ### Next up
 - [ ] Support of semantic search on dashboard website
 - [ ] Use of graph generation tools for prototyping
+
+
+![Dashboard](assets/dashboard.png)
 
 ---
 
