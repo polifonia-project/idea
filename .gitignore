@@ -3,6 +3,9 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# IntelliJ files (hidden on OS X)
+.idea/
+
 # C extensions
 *.so
 
