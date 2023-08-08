@@ -1,13 +1,13 @@
 {
     "embeddings": [
       {
-        "tensorName": "PolifoniaCQ",
+        "tensorName": "ClusteredCQ",
         "tensorShape": [
           260,
           384
         ],
-        "tensorPath": "https://raw.githubusercontent.com/polifonia-project/idea/main/data/projections/00000/PolifoniaCQ/tensors.tsv",
-        "metadataPath": "https://raw.githubusercontent.com/polifonia-project/idea/main/data/projections/00000/PolifoniaCQ/metadata.tsv"
+        "tensorPath": "https://raw.githubusercontent.com/polifonia-project/idea/main/data/projections/00000/ClusteredCQ/tensors.tsv",
+        "metadataPath": "https://raw.githubusercontent.com/polifonia-project/idea/main/data/projections/00000/ClusteredCQ/metadata.tsv"
       }
     ]
   }
