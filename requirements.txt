@@ -3,3 +3,5 @@ pandas>=1.5.2
 tqdm>=4.64.1
 scikit-learn>=1.2.0
 sentence_transformers>=2.2.2
+openai
+tenacity
