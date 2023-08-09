@@ -111,8 +111,6 @@ if st.button('I provided all the information. Provide me the full user story.'):
     A concert played in San Pietro di Sturla for exhibition was recorded by ethnomusicologist Mauro Balma in 1994.
     The Church of San Pietro di Sturla is located in Carasco, Genova Province.
     The Sistema Ligure is described in the text “Campanari, campane e campanili di Liguria” By Mauro Balma, 1996.
-
-    Finally, format the user story in markdown.
     """
 
     st.session_state.conversation_history, response_new = story_generator_interactive(str(prompt), st.session_state.conversation_history)
