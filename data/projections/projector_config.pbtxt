@@ -1,5 +1,5 @@
 embeddings {
-  tensor_name: "PolifoniaCQ:00000"
-  metadata_path: "00000/PolifoniaCQ/metadata.tsv"
-  tensor_path: "00000/PolifoniaCQ/tensors.tsv"
+  tensor_name: "ClusteredCQ:00000"
+  metadata_path: "00000/ClusteredCQ/metadata.tsv"
+  tensor_path: "00000/ClusteredCQ/tensors.tsv"
 }
