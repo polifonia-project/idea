@@ -132,3 +132,5 @@ dmypy.json
 .pyre/
 
 .DS_Store
+idea/streamlitApp.py
+idea/Story_generation.ipynb
